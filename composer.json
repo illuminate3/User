@@ -1,0 +1,22 @@
+{
+    "name": "illuminate3/user",
+    "description": "",
+    "authors": [
+        {
+            "name": "Boy Hagemann",
+            "email": "boy@swis.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "cartalyst/sentry": "2.0.*",
+        "illuminate3/form": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Illuminate3\\User": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
